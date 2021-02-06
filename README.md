@@ -26,11 +26,11 @@ Deploying is lengthy process required patience & here goes the steps :
 
 - Clone this repo in your device:
 ```
-git clone https://github.com/DebiprasadXD/DDxD-Mirror-Bot 
+git clone https://github.com/FURYxThoR/Heimdall-Mirror-Bot
 ```
 - Change the directory:
 ```
-cd DDxD-Mirror-Bot
+cd Heimdall-Mirror-Bot
 ```
 - Install dependencies for running setup scripts:
 ```shell script
