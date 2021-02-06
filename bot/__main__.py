@@ -43,9 +43,9 @@ def stats(update, context):
 @run_async
 def start(update, context):
     start_string = f'''
-This is a bot which can mirror all your links to Google drive!
+The Bot can mirror almost all types of Links/Files to Gdrive !!
 
-👲 Build by @DebNationXD
+~ Build by @FURYxThoR
 
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
