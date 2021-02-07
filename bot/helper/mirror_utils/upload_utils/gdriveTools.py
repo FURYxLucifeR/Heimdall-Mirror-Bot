@@ -481,9 +481,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = '🔸🔶DEBIPRASAD🔶🔸',
-                                 author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @deadpooldrive_bot',
-                                 author_url='https://t.me/DebNationXD',
+                                 title = '🔸🔶<ThoR🔶🔸',
+                                 author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @heimdallrobot',
+                                 author_url='https://telegram.me/FURYxThoR',
                                  html_content=content)
         return
  
@@ -558,7 +558,7 @@ class GoogleDriveHelper:
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
                                                         title = '🔸🔶<ThoR>🔶🔸',
                                                         author_name='👲 𝗨𝗽𝗹𝗼𝗮𝗱 𝗕𝘆 @heimdallrobot',
-                                                        author_url='https://t.me/FURYxThoR',
+                                                        author_url='https://telegram.me/FURYxThoR',
                                                         html_content=content
                                                         )['path'])
  
